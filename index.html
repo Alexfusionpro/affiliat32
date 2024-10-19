@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="affiliate, affiliate marketing, teknik, hälsa">
+    <meta name="description" content="AffiliateFusion - Din partner inom affiliate-marknadsföring.">
+    <title>AffiliateFusion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e6fa; /* Ljuslila bakgrund */
+            color: #333;
+        }
+        header {
+            background-color: #ff9900; /* Amazon orange */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #0073e6;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer; /* Gör produkterna klickbara */
+            transition: background-color 0.3s;
+        }
+        .product:hover {
+            background-color: #f0f0f0; /* Ljusgrå bakgrund på hover */
+        }
+        .product img {
+            width: 150px;
+            margin-right: 20px;
+        }
+        footer {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .cta {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .faq {
+            margin: 20px 0;
+        }
+        .faq details {
+            margin-bottom: 10px;
+        }
+        .faq summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AffiliateFusion</h1>
+        <nav>
+            <a href="#about">Om oss</a>
+            <a href="#products">Produkter</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Om oss</h2>
+        <p>AffiliateFusion är din partner inom affiliate-marknadsföring. Vi hjälper företag och individer att växa genom strategiska partnerskap och smarta affiliate-lösningar.</p>
+    </section>
+
+    <section id="products">
+        <h2>Rekommenderade Produkter</h2>
+
+        <!-- Teknikprodukter -->
+        <h3>Teknik</h3>
+        <div class="product" onclick="window.open('https://www.amazon.se/dp/B09G9F16P6', '_blank');">
+            <img src="https://m.media-amazon.com/images/I/61TZFS82TpL._AC_SL1500_.jpg" alt="iPhone 14">
+            <div>
+                <h4>iPhone 14</h4>
+                <p>Upplev den senaste tekniken med iPhone 14. Med en fantastisk 12 MP dual-kamera som ger otroliga bilder, även i svagt ljus. Känd för sin prestanda och användarvänlighet, iPhone 14 erbjuder också en lång batteritid och en ljus och klar Retina-skärm.</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="window.open('https://www.amazon.se/dp/B09VTBGRK5', '_blank');">
+            <img src="https://m.media-amazon.com/images/I/61BVsLe9jOL._AC_SL1500_.jpg" alt="Samsung Galaxy S23">
+            <div>
+                <h4>Samsung Galaxy S23</h4>
+                <p>Samsung Galaxy S23 kombinerar stil och kraft. Med en 50 MP huvudkamera, en 12 MP ultravidkamera och en 10 MP telefoto-kamera är den perfekt för alla fotograferingsbehov. Dess långvariga batteri och snabba laddning gör den till ett utmärkt val för teknikälskare.</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="window.open('https://www.amazon.se/dp/B09ZXLZJ7H', '_blank');">
+            <img src="https://m.media-amazon.com/images/I/71GRIH26FJL._AC_SL1500_.jpg" alt="Dell Latitude 3420">
+            <div>
+                <h4>Dell Latitude 3420</h4>
+                <p>Dell Latitude 3420 är en kraftfull laptop med 11:e generationens Intel-processorer. Perfekt för både arbete och studier med en 14-tums FHD-skärm och lång batteritid, vilket gör den till en idealisk följeslagare för alla professionella behov.</p>
+            </div>
+        </div>
+
+        <h3>Hälsa</h3>
+        <div class="product" onclick="window.open('https://www.amazon.se/dp/B09FHRJHGG', '_blank');">
+            <img src="https://m.media-amazon.com/images/I/61YH0jA9ejL._AC_SL1500_.jpg" alt="Fitbit Charge 5">
+            <div>
+                <h4>Fitbit Charge 5</h4>
+                <p>Fitbit Charge 5 är en avancerad aktivitetsmätare som hjälper dig att hålla koll på din hälsa. Med funktioner som hjärtfrekvensmätning, sömnövervakning och inbyggd GPS är den perfekt för både träning och vardagsliv.</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="window.open('https://www.amazon.se/dp/B07ZZQX4H4', '_blank');">
+            <img src="https://m.media-amazon.com/images/I/61P8bL9N7tL._AC_SL1500_.jpg" alt="NutriBullet Pro">
+            <div>
+                <h4>NutriBullet Pro</h4>
+                <p>NutriBullet Pro gör hälsosamma smoothies och juice snabbt och enkelt. Med en kraftfull motor och en enkel design är det det perfekta verktyget för att förbättra din kost och livsstil.</p>
+            </div>
+        </div>
+
+        <div class="product" onclick="window.open('https://www.amazon.se/dp/B08ZB8CXBM', '_blank');">
+            <img src="https://m.media-amazon.com/images/I/71YcwnWyJ4L._AC_SL1500_.jpg" alt="Yoga Mat">
+            <div>
+                <h4>Yoga Mat</h4>
+                <p>Denna yogamatta erbjuder ett bra grepp och komfort för alla nivåer av yoga. Lätt och bärbar, perfekt för hemmet eller gymmet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <h2>Vanliga Frågor</h2>
+        <div class="faq">
+            <details>
+                <summary>Vad är affiliate-marknadsföring?</summary>
+                <p>Affiliate-marknadsföring innebär att du tjänar provision på försäljningar som genereras genom din marknadsföring av produkter eller tjänster.</p>
+            </details>
+            <details>
+                <summary>Hur börjar jag som affiliate-marknadsförare?</summary>
+                <p>Du kan börja genom att registrera dig för ett affiliate-program och börja marknadsföra produkter på din webbplats eller blogg.</p>
+            </details>
+            <details>
+                <summary>Vilka är fördelarna med affiliate-marknadsföring?</summary>
+                <p>Du kan tjäna pengar utan att behöva skapa egna produkter och du kan arbeta hemifrån på dina egna villkor.</p>
+            </details>
+            <details>
+                <summary>Kan jag marknadsföra produkter på sociala medier?</summary>
+                <p>Ja, sociala medier är en utmärkt plattform för att marknadsföra affiliate-produkter och nå en bredare publik.</p>
+            </details>
+        </
